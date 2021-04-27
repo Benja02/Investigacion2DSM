@@ -12,6 +12,12 @@ import com.udb.calculadoramvp.interfaces.OperationPresenter;
 import com.udb.calculadoramvp.interfaces.OperationView;
 import com.udb.calculadoramvp.presenters.OperationPresenterImpl;
 
+/*
+Esta clase es nuestra Vista de nuestro MVP donde esta clase se encarga de mostrar los datos.
+
+En está se implementará la interfaz correspondiente OperationView.
+ */
+
 public class OperationActivityView extends AppCompatActivity implements OperationView {
 
     private EditText number1;

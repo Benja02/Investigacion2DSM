@@ -1,8 +1,15 @@
 package com.udb.calculadoramvp.interactor;
 
-
 import com.udb.calculadoramvp.interfaces.OperationInteractor;
 import com.udb.calculadoramvp.interfaces.OperationPresenter;
+
+/*
+ En esta clase llamada OperationInteractor es nuestro MODELO del MVP, ya que aquí es donde se gestiona todos los datos
+que nuestra app de calculadora realizará, ya sea para la suma, division, resta o multiplicación.
+
+Esta clase implementará la interfaz correspondiente a OperationInteractor.
+*/
+
 
 public class OperationInteractorImpl implements OperationInteractor {
     private int result;

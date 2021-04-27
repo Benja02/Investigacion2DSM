@@ -1,5 +1,9 @@
 package com.udb.calculadoramvp.interfaces;
 
+/*
+Tiene las funciones add(), subtract, multiply() y divide() para realizar las operaciones.
+ */
+
 public interface OperationInteractor {
     void add(int num1, int num2);
     void subtract(int num1, int num2);
