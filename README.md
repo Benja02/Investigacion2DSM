@@ -1,3 +1,3 @@
 # Investigacion2DSM
 
-La aplicación desarrollado fue guiada bajo la arquitectura MVP
+La aplicación desarrollada fue realizada bajo la arquitectura MVP.
